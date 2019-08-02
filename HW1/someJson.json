@@ -1,0 +1,25 @@
+{
+"flag": true,
+
+"myPromises": "someText Instead of an array",
+
+"element": {
+    "key":"value"
+},
+
+"screenshot": "null",
+
+"elementText": "some text",
+
+"allElementsText": "some const",
+
+"counter": 11,
+
+"config": "Common",
+
+"const": "first",
+
+"parameters": ["z", "x", "c", "v", "b", "n", "m", "a", "w","w","w","w"],
+
+"description": "12345678901123"
+}
