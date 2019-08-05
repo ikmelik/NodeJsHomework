@@ -1,10 +1,10 @@
 const fs = require('fs');
 
-function readJson() {
+function readJson(path) {
     let readJsonData = {};
     let errorObj = {};
 
-    fs.readFile('./someJson.json', (err, data) => {
+    fs.readFile(path, (err, data) => {
         if (err) throw err;
 
         readJsonData = JSON.parse(data);
@@ -116,7 +116,7 @@ function readJson() {
     })
 };
 
-readJson();
+readJson('./someJson.json');
 
 module.exports = {
     readJson: readJson
